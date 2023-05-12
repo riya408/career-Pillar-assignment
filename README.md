@@ -1,5 +1,20 @@
 # Getting Started with Create React App
 
+# Name:
+Riya singh
+# project:
+Task Tracker app for Company  Career Pillar Solution
+# How to Run
+  To run this application, you can follow these steps:
+
+1.Create a new folder for the project.
+2.Clone the repository by running the command "git clone" followed by the link to my repository.
+3.After cloning, install the required dependencies by running the command "npm install".
+4.Finally, start the project by running the command "npm start".
+
+These steps will allow you to clone the project, install the necessary dependencies, and run the application successfully.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -3,8 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 import CustomButton from "../../Molecules/Custom Button/CustomButton";
 import CustomInput from "../../Molecules/Custom Input/CustomInput";
 import styles from "./TodoBox.module.css";
-// import LogoutPopover from "../../Molecules/Logout Popover/LogoutPopover";
-// import StarRating from "../../Molecules/Star Rating/StarRating";
+
 import Swal from "sweetalert2";
 
 function TodoBox() {
@@ -150,22 +149,7 @@ function TodoBox() {
       </div>
 
       {todos.length === 0 ? (
-        <div className={styles.AlternativeMessage}>
-          <img
-            className={styles.LadyImage}
-            src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-512.png"
-            alt="lady"
-          />
-          <p className={styles.NoTasksMessage}>
-            Thank you for choosing us, {matchedDeets.firstName}!
-          </p>
-          {/* <span className={styles.LogoutPopover}>
-            <LogoutPopover />
-          </span>{" "}
-          <span className={styles.StarRating}>
-            <StarRating />{" "}
-          </span>{" "} */}
-        </div>
+        <div className={styles.AlternativeMessage}></div>
       ) : (
         <div className={styles.AllTasksContainer}>
           {todos.map((todo) => (
@@ -213,10 +197,11 @@ function TodoBox() {
                 buttontext="Delete"
               />
             </div>
+            
           ))}
-          
         </div>
       )}
+      
     </div>
   );
 }

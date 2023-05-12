@@ -1,16 +1,11 @@
+import NavBar from "./components/Navbar/Navbar";
 
-import './App.css';
-
-import NavBar from './components/Navbar/Navbar';
-
-import TodoBox from './components/TodoBox/TodoBox'
+import TodoBox from "./components/TodoBox/TodoBox";
 function App() {
   return (
     <div className="App">
-      <NavBar/>
-      <TodoBox/>
-     
-     
+      <NavBar />
+      <TodoBox />
     </div>
   );
 }
